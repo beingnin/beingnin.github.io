@@ -211,7 +211,7 @@
 
 
 getCurrentLocation((position)=>{
-	var Url1 = 'https://api.openweathermap.org/data/2.5/weather?lat='+position.coords.latitude+'&lon='+position.coords.longitude+'&appid=3f593a60979bde0c752f4346d09dd9ba';
+	var Url = 'https://api.openweathermap.org/data/2.5/weather?lat='+position.coords.latitude+'&lon='+position.coords.longitude+'&appid=3f593a60979bde0c752f4346d09dd9ba';
    var timer;
 $.ajax({
 url:Url,
